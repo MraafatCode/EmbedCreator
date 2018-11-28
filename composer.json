@@ -1,0 +1,32 @@
+{
+    "name": "mraafatcode/embedcreator",
+    "description": "Laravel package to create HTML embed code using URL only, supports Facebook, Youtube, Instagram, Twitter, Vimeo and Dailymotion",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0",
+    "keywords": [
+        "Facebook",
+        "Youtube",
+        "Instagram",
+        "Twitter",
+        "Vimeo",
+        "Dailymotion"
+    ],
+    "authors": [
+        {
+            "name": "Muhammad Raafat",
+            "email": "mr.raafat1992@gmail.com",
+            "homepage": "https://www.facebook.com/MraafatCode",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">= 5.6"
+    },
+    "autoload": {
+        "psr-4": {
+            "MraafatCode\\EmbedCreator\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
